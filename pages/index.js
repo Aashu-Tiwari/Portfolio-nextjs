@@ -37,7 +37,7 @@ const Home = () => {
     </div>
 
     {/* Avatar image  */}
-    <motion.div variants={fadeIn('up', 0.5)} initial='hidden' animate='show' transition={{duration:1, ease:"easeInOut"}} exit='hidden' className='w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[15%]'>
+    <motion.div  variants={fadeIn('up', 0.5)} initial='hidden' animate='show' transition={{duration:1, ease:"easeInOut"}} exit='hidden' className='w-full h-full max-w-[737px] max-h-[678px] absolute  -bottom-32 lg:bottom-0 lg:right-[15%] top-[150px]'>
       <Avatar/>
     </motion.div>
     </div>
