@@ -17,7 +17,7 @@ const About = () => {
     <div>
       <div className='p-20 flex flex-col items-center justify-center whitespace-nowrap mt-7 xl:mt-0 text-xs xl:text-lg xl-mx-20  '>
             <h1 className="mx-[100px] text-sm xl:text-2xl mt-8 xl:mt-0 xl:mx-[50px]">About</h1>
-            <p>I'm a creative MERN Stack Developer</p>
+            <p>I&apos;m a creative MERN Stack Developer</p>
       </div>
       <div>
         <div className="absolute top-[180px] xl:top-[220px] xl:my-[-50px] xl:px-[180px] ">
@@ -53,7 +53,7 @@ const About = () => {
       </div>
       <div>
         <div style={{borderRadius:"50%"}} className="hidden xl:block border-solid border-2 border-white xl:absolute xl:top-[200px] xl:left-[670px] xl:w-[250px] xl:h-[250px] ">
-        <Image style={{height:"100%", width:"100%", objectFit:'contain',borderRadius:"50%"}} src={'/Avatar2.png'} width={300} height={200}/>
+        <Image style={{height:"100%", width:"100%", objectFit:'contain',borderRadius:"50%"}} src={'/Avatar2.png'} width={300} height={200} alt=""/>
         </div>
 
         <div className="absolute xl:top-[174px] mt-5 top-[365px] right-0 xl:right-[170px]">
